@@ -1,0 +1,5 @@
+- name: configure mysel server
+  hosts: mysql
+  become: yes
+  roles:
+   - mysql
